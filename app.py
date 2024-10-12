@@ -8,10 +8,8 @@ import streamlit as st
 # Streamlit app title
 st.title('Stock Price Prediction')
 
-df = pd.read_csv('/Users/saikrishna/Desktop/Stock Price Predeictions/stock_prices.csv')
+df = pd.read_csv('https://github.com/saikrishna0716/stock_price_forecast/blob/e6dfe548e17f25043e177b4efcf4eaac0be496ff/stock_prices.csv')
 
-# Display the data
-print(df.columns)
 # Display the data
 st.write('Stock Price Data', df.head())
 
